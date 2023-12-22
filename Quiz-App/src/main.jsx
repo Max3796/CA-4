@@ -3,9 +3,8 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import './index.css';
 
-ReactDOM.render(
-  <div>
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
     <App />
-  </div>,
-  document.getElementById('root')
-);
+  </React.StrictMode>,
+)
