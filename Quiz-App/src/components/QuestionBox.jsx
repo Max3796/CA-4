@@ -72,7 +72,7 @@ export default function QuestionBox(props) {
                   backgroundColor: props.theme ? 'white' : '#242424'
                 }}
               >
-                {highlight ? "Normal" : "Highlight"}
+                {highlight ? "Remove" : "Highlight"}
               </button>
             </div>
           </div>
